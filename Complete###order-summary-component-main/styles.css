@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Inter:wght@700&family=Kanit&family=Lexend+Deca:wght@700&family=Red+Hat+Display:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Inter:wght@700&family=Kanit&family=Lexend+Deca:wght@700&family=Red+Hat+Display:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+     margin: 0;
+     padding: 0;
+     background-color: hsl(225, 100%, 94%);
+}
+.back-img {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    /* to cover a iamge in background.
+
+
+    background-position: center;
+    background-size: cover;*/
+
+
+} 
+.container 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+.card  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column wrap;
+    height: 650px;
+    width: 449.9px;
+    background-color: hsl(225, 100%, 98%);;
+    border-radius: 25px;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    overflow: hidden;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.card-info {
+    position: relative;
+    top: 45px;
+    padding-top: 100px;
+    margin: 0 0 0 20px;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+h2 > p {
+    font-weight: 400px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.plan {
+    margin: 20px 35px 0px 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(224, 27%, 80%);
+    border-radius: 5px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.music-img {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.plan-info {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 30px;
+    text-align: center;
+}
+.change {
+    color: hsl(245, 75%, 52%);
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.change > p {
+    font-weight: bold;
+}
+.payment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;;
+    text-align: center;
+    padding-top: 50px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.proceed, .cancel {
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    
+}
+.cancel {
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(223, 47%, 23%);
+}
+.card-info {
+    position: relative;
+    margin-top: 30px;
+}
