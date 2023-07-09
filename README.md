@@ -1,2 +1,2 @@
 # Frontend_Practices
-Mini Mini Projects on Frontend Devlopment
+Mini Projects on Frontend Devlopment
